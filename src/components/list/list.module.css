@@ -1,0 +1,14 @@
+.listContainer {
+  display: flex;
+  gap: 20px;
+}
+.list {
+  border: 2px solid black;
+  padding: 25px;
+  border-radius: 6px;
+}
+.listItem {
+  > h2 {
+    margin: 0;
+  }
+}
